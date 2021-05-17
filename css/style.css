@@ -202,6 +202,14 @@ button {
 /*=========================HEADER END===========================*/
 
 /*=========================HERO START===========================*/
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-p{
+    text-align: center;
+}
 /*=========================HERO END===========================*/
 
 /*=========================MAIN START===========================*/
