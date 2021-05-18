@@ -146,9 +146,10 @@ html {
 :root {
 }
 body {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
+  font-family: sans-serif;
 }
 a,
 ::before,
@@ -180,12 +181,21 @@ button {
 
 /*=========================HEADER START===========================*/
 .header{
-    padding: 20px 0 20px 0;
+    padding: 20px 50px;
 }
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+.logo{
+  color: #131A25;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 42px;
+  text-shadow: 6px 0 rgba(0, 22, 255, .5), 1px 6px rgba(91, 246, 36, .5), 3px -5px rgba(373, 43, 202, .5), -7px 0 rgba(252, 255, 4, .5);
+  letter-spacing: 7px;
+  font-family: serif;
 }
 .nav{
     display: flex;
@@ -206,9 +216,11 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 100px 0;
 }
 .hero-p{
     text-align: center;
+    max-width: 500px;
 }
 /*=========================HERO END===========================*/
 
