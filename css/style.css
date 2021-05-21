@@ -171,7 +171,7 @@ button {
   display: inline-flex;
 }
 .container {
-  max-width: 1180px;
+  max-width: 1140px;
   width: 100%;
   margin: 0 auto;
 }
@@ -214,13 +214,34 @@ button {
 /*=========================HERO START===========================*/
 .hero-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 150px 0;
+    position: relative;
 }
-.hero-p{
-    text-align: center;
+.content{
+  max-width: 500px;
+  z-index: 999;
+}
+.hero-content-p{
     max-width: 500px;
+}
+h1{
+  font-size: 62px;
+  font-weight: 700;
+  text-shadow: 3px 0 rgba(0, 22, 255, .5), 1px 3px rgba(91, 246, 36, .5), 3px -3px rgba(373, 43, 202, .5), -3px 0 rgba(252, 255, 4, .5);
+  font-family: serif;
+  line-height: 1;
+  padding-bottom: 25px;
+}
+.h1-span{
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: none;
+}
+.hero-image{
+  position: absolute;
+  left: 650px;
 }
 /*=========================HERO END===========================*/
 
@@ -228,6 +249,24 @@ button {
 /*=========================MAIN END===========================*/
 
 /*=========================FOOTER START===========================*/
-
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.sci{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  
+}
+.sci li:nth-child(n+2){
+  margin-left: 20px;
+}
+.tel a:nth-child(n+2){
+  margin-left: 15px;
+}
 /*=========================FOOTER END===========================*/
 /*=========================PAGE STYLES END===========================*/
