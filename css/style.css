@@ -211,12 +211,27 @@ button {
 }
 /*=========================HEADER END===========================*/
 
+/*=========================MAIN START===========================*/
+
+.main{
+  height: 2000px; /*dev*/
+}
+h2{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: serif;
+  text-shadow: 3px 0 rgba(0, 22, 255, .5), 1px 3px rgba(91, 246, 36, .5), 3px -3px rgba(373, 43, 202, .5), -3px 0 rgba(252, 255, 4, .5);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
 /*=========================HERO START===========================*/
 .hero-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 150px 0;
+    padding: 100px 0 120px 0;
     position: relative;
 }
 .content{
@@ -245,7 +260,22 @@ h1{
 }
 /*=========================HERO END===========================*/
 
-/*=========================MAIN START===========================*/
+/*=========================CLASSES START===========================*/
+.classes-slider{
+  width: 900px;
+}
+.classes-slide{
+  display: flex;
+  justify-content: center;
+  
+}
+/*=========================CLASSES START===========================*/
+
+/*=========================STYLES START===========================*/
+
+
+/*=========================STYLES START===========================*/
+
 /*=========================MAIN END===========================*/
 
 /*=========================FOOTER START===========================*/
@@ -260,7 +290,12 @@ h1{
   justify-content: center;
   align-items: center;
   font-size: 22px;
-  
+}
+.sci li{
+  transition: .3s;
+}
+.sci li:hover{
+  opacity: .5;
 }
 .sci li:nth-child(n+2){
   margin-left: 20px;
