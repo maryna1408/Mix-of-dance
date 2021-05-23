@@ -8,4 +8,5 @@ const classesSlider = new Swiper('.classes-slider', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
+    speed: 700,
 })

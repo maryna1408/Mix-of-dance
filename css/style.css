@@ -150,6 +150,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   font-family: sans-serif;
+  background-color: #fefefe;
 }
 a,
 ::before,
@@ -185,7 +186,7 @@ button {
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .logo{
@@ -201,7 +202,7 @@ button {
     display: flex;
 }
 .nav li:nth-child(n+2){
-    margin-left: 80px;
+    margin-left: 50px;
 }
 .nav li:hover{
     opacity: .6;
@@ -213,8 +214,8 @@ button {
 
 /*=========================MAIN START===========================*/
 
-.main{
-  height: 2000px; /*dev*/
+.main>div{
+  padding: 40px 0;
 }
 h2{
   font-size: 50px;
@@ -223,7 +224,7 @@ h2{
   font-family: serif;
   text-shadow: 3px 0 rgba(0, 22, 255, .5), 1px 3px rgba(91, 246, 36, .5), 3px -3px rgba(373, 43, 202, .5), -3px 0 rgba(252, 255, 4, .5);
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /*=========================HERO START===========================*/
@@ -231,7 +232,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0 120px 0;
+    padding: 120px 0;
     position: relative;
 }
 .content{
@@ -272,8 +273,29 @@ h1{
 /*=========================CLASSES START===========================*/
 
 /*=========================STYLES START===========================*/
+.styles-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.style-img{
+  border: 1px solid #000;
+  border-radius: 999px;
+}
+.style{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-
+h4{
+  font-size: 32px;
+  font-weight: 600;
+  margin: 20px 0;
+}
 /*=========================STYLES START===========================*/
 
 /*=========================MAIN END===========================*/
