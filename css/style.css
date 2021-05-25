@@ -150,7 +150,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   font-family: sans-serif;
-  background-color: #fefefe;
+  background-color: #ccc;
 }
 a,
 ::before,
@@ -175,13 +175,30 @@ button {
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
+  background-color: #FCFCFC;
+  padding: 30px 0;
 }
+
 /*=========================COMMON STYLES END=============================*/
 
 /*=========================PAGE STYLES START===========================*/
 
+/*=========================DARK BACKGROUND START===========================*/
+
+.dark-background{
+  background:  url('../images/MOD.webp') no-repeat center / cover;
+  opacity: .5;
+  display: flex;
+  justify-content: center;
+  height: 900px;
+}
+
+/*=========================DARK BACKGROUND END===========================*/
+
+
 /*=========================HEADER START===========================*/
 .header{
+    margin-top: -500px;
     padding: 20px 50px;
 }
 .navbar{
@@ -213,10 +230,6 @@ button {
 /*=========================HEADER END===========================*/
 
 /*=========================MAIN START===========================*/
-
-.main>div{
-  padding: 40px 0;
-}
 h2{
   font-size: 50px;
   display: flex;
@@ -237,7 +250,7 @@ h2{
 }
 .content{
   max-width: 500px;
-  z-index: 999;
+  z-index: 99;
 }
 .hero-content-p{
     max-width: 500px;
@@ -264,6 +277,7 @@ h1{
 /*=========================CLASSES START===========================*/
 .classes-slider{
   width: 900px;
+  height: 500px; /*dev*/
 }
 .classes-slide{
   display: flex;
@@ -275,23 +289,25 @@ h1{
 /*=========================STYLES START===========================*/
 .styles-container{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 .style-img{
   border: 1px solid #000;
   border-radius: 999px;
 }
 .style{
-  padding: 20px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
-h4{
+.styles-row{
+  display: flex;
+}
+h3{
   font-size: 32px;
   font-weight: 600;
   margin: 20px 0;
@@ -305,7 +321,7 @@ h4{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0;
+  padding: 30px 50px;
 }
 .sci{
   display: flex;
@@ -325,5 +341,13 @@ h4{
 .tel a:nth-child(n+2){
   margin-left: 15px;
 }
+.tel a{
+  transition: .3s;
+}
+.tel a:hover{
+  opacity: .5;
+}
 /*=========================FOOTER END===========================*/
 /*=========================PAGE STYLES END===========================*/
+
+
