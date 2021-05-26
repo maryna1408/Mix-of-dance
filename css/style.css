@@ -149,7 +149,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
-  font-family: sans-serif;
+  font-family: serif;
   background-color: #ccc;
 }
 a,
@@ -294,8 +294,8 @@ h1{
   align-items: center;
 }
 .style-img{
-  border: 1px solid #000;
-  border-radius: 999px;
+  /* border: 1px solid #000; */
+  /* border-radius: 999px; */
 }
 .style{
   padding: 15px;
