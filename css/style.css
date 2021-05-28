@@ -239,20 +239,20 @@ h2{
 
 /*=========================HERO START===========================*/
 .hero{
-  background:  url('../images/daria.jpg') no-repeat center 0 / cover;
+  background: linear-gradient(0deg, #000, transparent 30%),  url('../images/daria.jpg') no-repeat center 0 / cover;
   display: flex;
   justify-content: center;
   height: 1300px;
   width: 100%;
   padding-top: 30px;
-  opacity: .7;
+  opacity: .8;
 }
 .hero-container{
   background-color: transparent;
 }
 .content{
   z-index: 99;
-  padding: 220px 0 25px 100px;
+  padding: 200px 0 25px 120px;
 }
 .hero-content-p{
     max-width: 500px;
@@ -287,7 +287,6 @@ h1{
 
 /*=========================CLASSES START===========================*/
 .classes{
-  
   margin-top: -450px;
   position: relative;
 }
@@ -311,6 +310,7 @@ h1{
 }
 .style-img{
   border-radius: 999px;
+  /* box-shadow: 5px 0 rgba(0, 22, 255, .5), 1px 5px rgba(91, 246, 36, .5), 3px -5px rgba(373, 43, 202, .5), -5px 0 rgba(252, 255, 4, .5); */
 }
 .style{
   padding: 15px;
@@ -327,7 +327,39 @@ h3{
   font-weight: 600;
   margin: 20px 0;
 }
-/*=========================STYLES START===========================*/
+/*=========================STYLES END===========================*/
+
+/*=========================DIRECTORS START===========================*/
+.directors-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.director{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 320px;
+
+}
+.photo{
+  margin: 0 80px;
+  object-fit: cover;
+  /* border-radius: 999px; */
+  box-shadow: 5px 0 rgba(0, 22, 255, .5), 1px 5px rgba(91, 246, 36, .5), 3px -5px rgba(373, 43, 202, .5), -5px 0 rgba(252, 255, 4, .5);
+}
+h4{
+  font-size: 36px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.trophy{
+  color: gold;
+}
+/*=========================DIRECTORS END===========================*/
+
 
 /*=========================MAIN END===========================*/
 
