@@ -256,7 +256,7 @@ h2{
 }
 .hero-content-p{
     max-width: 500px;
-    font-size: 24px;
+    font-size: 21px;
 }
 h1{
   font-size: 80px;
@@ -310,7 +310,6 @@ h1{
 }
 .style-img{
   border-radius: 999px;
-  /* box-shadow: 5px 0 rgba(0, 22, 255, .5), 1px 5px rgba(91, 246, 36, .5), 3px -5px rgba(373, 43, 202, .5), -5px 0 rgba(252, 255, 4, .5); */
 }
 .style{
   padding: 15px;
@@ -347,8 +346,6 @@ h3{
 .photo{
   margin: 0 80px;
   object-fit: cover;
-  /* border-radius: 999px; */
-  box-shadow: 5px 0 rgba(0, 22, 255, .5), 1px 5px rgba(91, 246, 36, .5), 3px -5px rgba(373, 43, 202, .5), -5px 0 rgba(252, 255, 4, .5);
 }
 h4{
   font-size: 36px;
