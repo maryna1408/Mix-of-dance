@@ -239,7 +239,7 @@ h2{
 
 /*=========================HERO START===========================*/
 .hero{
-  background: linear-gradient(0deg, #000, transparent 30%),  url('../images/daria.jpg') no-repeat center 0 / cover;
+  background: linear-gradient(0deg, #000, transparent 45%),  url('../images/daria.webp') no-repeat center 0 / cover;
   display: flex;
   justify-content: center;
   height: 1300px;
@@ -310,6 +310,7 @@ h1{
 }
 .style-img{
   border-radius: 999px;
+  object-fit: cover;
 }
 .style{
   padding: 15px;
@@ -324,7 +325,7 @@ h1{
 h3{
   font-size: 32px;
   font-weight: 600;
-  margin: 20px 0;
+  margin: 15px 0;
 }
 /*=========================STYLES END===========================*/
 
@@ -346,11 +347,6 @@ h3{
 .photo{
   margin: 0 80px;
   object-fit: cover;
-}
-h4{
-  font-size: 36px;
-  font-weight: 600;
-  padding: 10px 0;
 }
 .trophy{
   color: gold;
