@@ -146,7 +146,7 @@ html {
 :root {
 }
 body {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
   font-family: serif;
@@ -292,14 +292,33 @@ h1{
 }
 .classes-slider{
   width: 900px;
-  height: 500px; /*dev*/
+   height: 500px; /*dev */
 }
 .classes-slide{
+  width: 400px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  
+  align-items: center;
+
+}
+.schedule{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h4{
+  font-size: 32px;
+  font-weight: 700;
+  padding: 12px 0 6px 0;
 }
 /*=========================CLASSES START===========================*/
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item { width: 20%; }
+/* 2 columns */
+.grid-item--width2 { width: 40%; }
 
 /*=========================STYLES START===========================*/
 .styles-container{
@@ -347,6 +366,7 @@ h3{
 .photo{
   margin: 0 80px;
   object-fit: cover;
+  box-shadow: 6px 0 rgba(0, 22, 255, .5), 1px 6px rgba(91, 246, 36, .5), 3px -5px rgba(328, 38, 38, .5), -7px 0 rgba(252, 255, 4, .5);
 }
 .trophy{
   color: gold;
