@@ -313,12 +313,10 @@ h4{
   font-weight: 700;
   padding: 12px 0 6px 0;
 }
+.bold-span{
+  font-weight: bold;
+}
 /*=========================CLASSES START===========================*/
-/* fluid 5 columns */
-.grid-sizer,
-.grid-item { width: 20%; }
-/* 2 columns */
-.grid-item--width2 { width: 40%; }
 
 /*=========================STYLES START===========================*/
 .styles-container{
@@ -373,7 +371,12 @@ h3{
 }
 /*=========================DIRECTORS END===========================*/
 
-
+.gallery-container{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*=========================MAIN END===========================*/
 
 /*=========================FOOTER START===========================*/
