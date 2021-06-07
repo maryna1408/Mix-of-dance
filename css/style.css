@@ -234,7 +234,7 @@ h2{
   font-family: serif;
   text-shadow: 3px 0 rgba(0, 22, 255, .5), 1px 3px rgba(91, 246, 36, .5), 3px -3px rgba(373, 43, 202, .5), -3px 0 rgba(252, 255, 4, .5);
   font-weight: 700;
-  margin-bottom: 30px;
+  margin: 50px;
 }
 
 /*=========================HERO START===========================*/
@@ -309,7 +309,7 @@ h1{
   align-items: center;
 }
 h4{
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
   padding: 12px 0 6px 0;
 }
@@ -340,7 +340,7 @@ h4{
   display: flex;
 }
 h3{
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 600;
   margin: 15px 0;
 }
@@ -354,11 +354,11 @@ h3{
 }
 .director{
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 320px;
+  /* width: 320px; */
 
 }
 .photo{
@@ -372,10 +372,7 @@ h3{
 /*=========================DIRECTORS END===========================*/
 
 .gallery-container{
-  width: 60%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* margin: 0 120px; */
 }
 /*=========================MAIN END===========================*/
 
