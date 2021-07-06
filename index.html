@@ -9,6 +9,12 @@
     <link rel="shortcut icon" href="images/shortcut_icon.webp" />
     <link rel="preload" href="css/style.css" as="font" type="text/plain/" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
@@ -34,10 +40,10 @@
             <a aria-label="Link to Directors" href="#Directors">Основатель</a>
           </li>
           <li>
-            <a aria-label="Link to Pricing" href="#">Галерея</a>
+            <a aria-label="Link to Gallery" href="#Gallery">Галерея</a>
           </li>
           <li>
-            <a aria-label="Link to our YouTube channel" href="#">Видео</a>
+            <a aria-label="Link to our YouTube channel" href="https://www.youtube.com/channel/UCk4KP7pnvo_nVuuA-BjgY_g" target="_blank" rel="noreferrer">Видео</a>
           </li>
           <li>
             <a aria-label="Link to Contacts" href="#contacts">Контакты</a>
@@ -50,7 +56,7 @@
         <div class="container hero-container">
           <ul class="sci">
             <li>
-              <a href="tel:+380504573223"><i class="fas fa-phone"></i></a>
+              <a aria-label="Call" href="tel:+380504573223"><i class="fas fa-phone"></i></a>
             </li>
             <li>
               <a
@@ -69,6 +75,14 @@
                 aria-label="Link to Facebook"
                 ><i class="fab fa-facebook"></i
               ></a>
+            </li>
+            <li>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.youtube.com/channel/UCk4KP7pnvo_nVuuA-BjgY_g"
+                aria-label="Link to YouTube channel"
+                ><i class="fab fa-youtube"></i></a>
             </li>
           </ul>
           <div class="content">
@@ -89,7 +103,7 @@
                 <picture>
                   <source srcset="" type="image/webp" />
                   <source srcset="images/younger-group.jpg" type="image/jpeg" />
-                  <img width="600" height="390" src="images/younger-group.jpg" alt="#" />
+                  <img class="classes-img" width="1" height="1" src="images/younger-group.jpg" alt="Photo of the younger group" />
                 </picture>
                 <div class="schedule">
                   <h4>Младшая группа</h4>
@@ -100,7 +114,7 @@
                 <picture>
                   <source srcset="" type="image/webp" />
                   <source srcset="" type="image/jpeg" />
-                  <img width="0" height="0" src="#" alt="#" />
+                  <img class="classes-img" width="1" height="1" src="#" alt="Photo of the middle group" />
                 </picture>
                 <div class="schedule">
                   <h4>Средняя группа</h4>
@@ -111,7 +125,7 @@
                 <picture>
                   <source srcset="" type="image/webp" />
                   <source srcset="" type="image/jpeg" />
-                  <img width="0" height="0" src="#" alt="#" />
+                  <img class="classes-img" width="1" height="1" src="#" alt="Photo of the senior group" />
                 </picture>
                 <div class="schedule">
                   <h4>Старшая группа</h4>
@@ -122,7 +136,7 @@
                 <picture>
                   <source srcset="" type="image/webp" />
                   <source srcset="images/Stretching.jpg" type="image/jpeg" />
-                  <img width="680" height="390" src="images/Stretching.jpg" alt="#" />
+                  <img class="classes-img" width="1" height="1" src="images/Stretching.jpg" alt="Stretching" />
                 </picture>
                 <div class="schedule">
                   <h4>Stretching</h4>
@@ -133,14 +147,13 @@
                 <picture>
                   <source srcset="" type="image/webp" />
                   <source srcset="" type="image/jpeg" />
-                  <img width="0" height="0" src="#" alt="#" />
+                  <img class="classes-img" width="1" height="1" src="#" alt="Photo of the individual class" />
                 </picture>
                 <div class="schedule">
                   <h4>Индивидуальные занятия</h4>
                   <!-- <p><span class="bold-span">150 грн</span></p> -->
                 </div>
-              </div>         
-              
+              </div>
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
@@ -157,7 +170,7 @@
                 <picture>
                   <source srcset="images/hip-hop.webp" type="image/webp" />
                   <source srcset="images/hip-hop.jpg" type="image/jpeg" />
-                  <img class="style-img" width="150" height="200" src="images/hip-hop.jpg" alt="#" />
+                  <img class="style-img" width="1" height="1" src="images/hip-hop.jpg" alt="hip-hop style photo" />
                 </picture>
                 <h3>Hip-Hop</h3>
               </div>
@@ -165,7 +178,7 @@
                 <picture>
                   <source srcset="images/house.webp" type="image/webp" />
                   <source srcset="images/house.jpg" type="image/jpeg" />
-                  <img class="style-img" width="150" height="200" src="images/house.jpg" alt="#" />
+                  <img class="style-img" width="1" height="1" src="images/house.jpg" alt="house style photo" />
                 </picture>
                 <h3>House</h3>
               </div>
@@ -173,7 +186,7 @@
                 <picture>
                   <source srcset="images/MATM.webp" type="image/webp" />
                   <source srcset="images/MATM.jpg" type="image/jpeg" />
-                  <img class="style-img" width="150" height="200" src="images/MATM.jpg" alt="#" />
+                  <img class="style-img" width="1" height="1" src="images/MATM.jpg" alt="MATM style photo" />
                 </picture>
                 <h3>MATM</h3>
               </div>
@@ -181,7 +194,7 @@
                 <picture>
                   <source srcset="images/dance-pop.webp" type="image/webp" />
                   <source srcset="images/dance-pop.jpg" type="image/jpeg" />
-                  <img class="style-img" width="150" height="200" src="images/dance-pop.jpg" alt="#" />
+                  <img class="style-img" width="1" height="1" src="images/dance-pop.jpg" alt="dance-pop style photo" />
                 </picture>
                 <h3>Dance Pop</h3>
               </div>
@@ -191,7 +204,7 @@
                 <picture>
                   <source srcset="images/contemporary.webp" type="image/webp" />
                   <source srcset="images/contemporary.jpg" type="image/jpeg" />
-                  <img class="style-img" width="150" height="200" src="images/contemporary.jpg" alt="#" />
+                  <img class="style-img" width="1" height="1" src="images/contemporary.jpg" alt="contemporary style photo" />
                 </picture>
                 <h3>Contemporary</h3>
               </div>
@@ -199,7 +212,7 @@
                 <picture>
                   <source srcset="images/modern.webp" type="image/webp" />
                   <source srcset="images/modern.jpg" type="image/jpeg" />
-                  <img class="style-img" width="150" height="200" src="images/modern.jpg" alt="#" />
+                  <img class="style-img" width="1" height="1" src="images/modern.jpg" alt="modern style photo" />
                 </picture>
                 <h3>Modern</h3>
               </div>
@@ -207,7 +220,7 @@
                 <picture>
                   <source srcset="images/jazz-funk.webp" type="image/webp" />
                   <source srcset="images/jazz-funk.jpg" type="image/jpeg" />
-                  <img class="style-img" width="150" height="200" src="images/jazz-funk.jpg" alt="#" />
+                  <img class="style-img" width="1" height="1" src="images/jazz-funk.jpg" alt="jazz-funk style photo" />
                 </picture>
                 <h3>Jazz-Funk</h3>
               </div>
@@ -223,7 +236,7 @@
               <picture>
                 <source srcset="images/photo_dasha.webp" type="image/webp" />
                 <source srcset="images/photo_dasha.jpg" type="image/jpeg" />
-                <img class="photo" height="300" width="200" src="images/photo_dasha.jpg" alt="choriographer photo" />
+                <img class="photo" height="1" width="1" src="images/photo_dasha.jpg" alt="choriographer photo" />
               </picture>
               <div class="pers-info">
                 <h3 class="name">Daria Lopatina</h3>
@@ -238,37 +251,69 @@
           </div>
         </div>
       </div>
-      <div class="gallery">
+      <div id="Gallery" class="gallery">
         <div class="container gallery-container">
           <h2>Галерея</h2>
-          <div class="grid">
-            <div class="grid-item"><img width="200" height="266" src="img/photo_1.jpg" alt=""></div>
-            <div class="grid-item"><img width="200" height="258" src="img/photo_5.jpg" alt=""></div>
-            
-            <div class="grid-item"><img width="200" height="274" src="img/photo_3.jpg" alt=""></div>
-            <div class="grid-item grid-item--width2"><img width="250" height="148" src="img/photo_2.jpg" alt=""></div>
-            <div class="grid-item grid-item--width2"><img width="250" height="auto" src="img/photo_10.jpg" alt=""></div>
-            <div class="grid-item"><img width="200" height="auto" src="img/photo_8.jpg" alt=""></div>
-            
-            
-            
-            
-            <div class="grid-item"><img width="200" height="auto" src="img/photo_4.jpg" alt=""></div>
-            
-            <div class="grid-item"><img width="200" height="auto" src="img/photo_6.jpg" alt=""></div>
-            
-            <div class="grid-item  grid-item--width2"><img width="250" height="auto" src="img/photo_7.jpg" alt=""></div>
-            
-            
-<!--             
-            <div class="grid-item grid-item--width2"><img width="250" height="auto" src="img/photo_9.jpg" alt=""></div> -->
-            
-            
+            <div class="gallery-row">
+              <picture>
+                <source srcset="gallery-images/photo_1.webp" type="image/webp">
+                <source srcset="gallery-images/photo_1.jpg" type="image/jpeg">
+                <img class="gallery-photo" height="1" width="1" src="gallery-images/photo_1.jpg" alt="Gallery photo">
+              </picture>
+              <picture>
+                <source srcset="gallery-images/photo_4.webp" type="image/webp">
+                <source srcset="gallery-images/photo_4.jpg" type="image/jpeg">
+                <img class="gallery-photo" height="1" width="1" src="gallery-images/photo_4.jpg" alt="Gallery photo">
+              </picture>
+              <picture>
+                <source srcset="gallery-images/photo_3.webp" type="image/webp">
+                <source srcset="gallery-images/photo_3.jpg" type="image/jpeg">
+                <img class="gallery-photo" height="1" width="1" src="gallery-images/photo_3.jpg" alt="Gallery photo">
+              </picture>
+              <picture>
+                <source srcset="gallery-images/photo_10.webp" type="image/webp">
+                <source srcset="gallery-images/photo_10.jpg" type="image/jpeg">
+                <img class="gallery-photo" height="1" width="1" src="gallery-images/photo_10.jpg" alt="Gallery photo">
+              </picture>
+            </div>
+            <div class="gallery-row">
+              <picture>
+                <source srcset="gallery-images/photo_12.webp" type="image/webp">
+                <source srcset="gallery-images/photo_12.jpg" type="image/jpeg">
+                <img class="gallery-photo" height="1" width="1" src="gallery-images/photo_12.jpg" alt="Gallery photo">
+              </picture>
+              
+              <picture>
+                <source srcset="gallery-images/photo_11.webp" type="image/webp">
+                <source srcset="gallery-images/photo_11.jpg" type="image/jpeg">
+                <img class="gallery-photo" height="1" width="1" src="gallery-images/photo_11.jpg" alt="Gallery photo">
+              </picture>
+              <picture>
+                <source srcset="gallery-images/photo_7.webp" type="image/webp">
+                <source srcset="gallery-images/photo_7.jpg" type="image/jpeg">
+                <img class="gallery-photo" height="1" width="1" src="gallery-images/photo_7.jpg" alt="Gallery photo">
+              </picture>
+            </div>
+            <div class="gallery-row">
+              <picture>
+                <source srcset="gallery-images/photo_2.webp" type="image/webp">
+                <source srcset="gallery-images/photo_2.jpg" type="image/jpeg">
+                <img class="gallery-photo" height="1" width="1" src="gallery-images/photo_2.jpg" alt="Gallery photo">
+              </picture>
+              <picture>
+                <source srcset="gallery-images/photo_5.webp" type="image/webp">
+                <source srcset="gallery-images/photo_5.jpg" type="image/jpeg">
+                <img class="gallery-photo" height="1" width="1" src="gallery-images/photo_5.jpg" alt="Gallery photo">
+              </picture>
+              <picture>
+                <source srcset="gallery-images/photo_8.webp" type="image/webp">
+                <source srcset="gallery-images/photo_8.jpg" type="image/jpeg">
+                <img class="gallery-photo" height="1" width="1" src="gallery-images/photo_8.jpg" alt="Gallery photo">
+              </picture>
+            </div>
+            </div>
           </div>
-        </div>
-      </div>
     </main>
-
     <footer id="contacts" class="footer">
       <div class="container footer-container">
         <div class="contacts">
@@ -281,7 +326,7 @@
         <a href="index.html" class="logo">Mod</a>
         <ul class="sci">
           <li>
-            <a href="tel:+380504573223">
+            <a aria-label="Call" href="tel:+380504573223">
               <i class="fas fa-phone"></i>
             </a>
           </li>
@@ -309,7 +354,6 @@
 
     <link rel="preload" href="css/swiper-bundle.min.css" as="style" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <script src="js/masonry.pkgd.min.js"></script>
     <script defer src="js/swiper-bundle.min.js"></script>
     <script defer src="js/app.js"></script>
   </body>
