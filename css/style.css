@@ -183,8 +183,20 @@ a{
   margin: 0 auto;
   background-color: #FCFCFC;
   padding: 30px 0;
+  
+}
+::-webkit-scrollbar {
+  width: 12px;
 }
 
+::-webkit-scrollbar-track-piece {
+  background-color: aliceblue;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #B9B9B9;
+  border-radius: 999px;
+}
 /*=========================COMMON STYLES END=============================*/
 
 /*=========================PAGE STYLES START===========================*/
@@ -221,7 +233,11 @@ a{
     margin-left: 40px;
 }
 .nav li:hover, .nav li:focus{
-    opacity: .6;
+    /* opacity: .6; */
+    /* background: -webkit-linear-gradient(blue, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  text-shadow: 3px 0 rgba(0, 22, 255, .5), 1px 3px rgba(91, 246, 36, .5), 3px -3px rgba(373, 43, 202, .5), -3px 0 rgba(252, 255, 4, .5);
 }
 .nav li{
     transition: .4s;
@@ -250,6 +266,7 @@ h2{
 }
 .hero-container{
   background-color: transparent;
+  box-shadow: none;
 }
 .content{
   z-index: 99;
@@ -265,7 +282,7 @@ h1{
   text-shadow: 6px 0 rgba(0, 22, 255, .5), 1px 6px rgba(91, 246, 36, .5), 3px -5px rgba(328, 38, 38, .5), -7px 0 rgba(252, 255, 4, .5);
   line-height: 1;
   font-family: 'Playfair Display' , serif;
-  padding-bottom: 18px;
+  margin-bottom: 20px;
 }
 .hero .sci{
   display: flex;
@@ -287,6 +304,7 @@ h1{
 /*=========================HERO END===========================*/
 
 /*=========================CLASSES START===========================*/
+
 .classes{
   margin-top: -450px;
   position: relative;
@@ -386,10 +404,26 @@ h3{
   object-fit: cover;
   height: 250px;
   width: auto;
-  margin: 0 5px;
+  margin: 0 4px;
 }
 /*=========================GALLERY END===========================*/
-
+.video>.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E4E4E4;
+  padding: 30px 30px;
+  width: 1100px;
+  border-radius: 10px;
+}
+.video-container>h2{
+  font-size: 36px;
+}
 /*=========================MAIN END===========================*/
 
 /*=========================FOOTER START===========================*/
